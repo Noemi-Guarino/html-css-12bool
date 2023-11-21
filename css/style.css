@@ -32,3 +32,40 @@
     color: blueviolet;
     text-align: center;
 }
+
+.space_around_box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.space_between_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.special_row_start {
+    display: flex;
+    justify-content: start;
+}
+
+.special_row_center {
+    display: flex;
+    justify-content: center;
+}
+
+.special_row_end {
+    display: flex;
+    justify-content: end;
+}
+
+.vertical_align_top {
+    vertical-align: top;
+}
+
+.vertical_align_middle {
+    vertical-align: middle;
+}
+
+.vertical_align_bottom {
+    vertical-align: bottom;
+}
